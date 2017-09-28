@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ip：" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/ip_record_item_ip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Medium Text" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/ip_record_item_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Small Text" />
+</LinearLayout>

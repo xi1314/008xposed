@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/tool_record_app_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:editable="false" android:layout_weight="1.0">
+            <requestFocus />
+        </EditText>
+        <Button android:id="@id/tool_record_app_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置应用" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/frameLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.09">
+        <EditText android:textSize="10.0dip" android:id="@id/tool_record_app_edit_log" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" android:inputType="none" android:textIsSelectable="true" />
+        <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/linearLayout2" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                <Button android:id="@id/tool_record_app_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清除记录" />
+                <Button android:id="@id/tool_record_app_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除记录中的文件" />
+                <CheckBox android:id="@id/tool_record_app_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

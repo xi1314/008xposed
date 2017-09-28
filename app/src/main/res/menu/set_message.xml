@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_historyQuick" android:title="快捷历史" android:showAsAction="always" />
+    <item android:id="@id/menu_remainControl" android:title="留存控制(vip)" android:showAsAction="always" />
+    <item android:id="@id/menu_restore" android:title="还原" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_settings" android:title="设置" android:showAsAction="ifRoom" />
+    <item android:id="@id/set_message_feedback" android:title="反馈与建议" android:showAsAction="ifRoom" />
+</menu>

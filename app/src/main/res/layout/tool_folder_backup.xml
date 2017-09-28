@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frameLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip">
+            <ListView android:id="@id/tool_folder_backup_listView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <CheckBox android:layout_gravity="center_vertical" android:id="@id/tool_folder_backup_checkboxOpen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="开启" />
+                <Button android:layout_gravity="center" android:id="@id/tool_folder_backup_clearList" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清空记录" style="?android:attr/buttonStyleSmall" />
+                <Button android:layout_gravity="center" android:id="@id/tool_folder_backup_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加" style="?android:attr/buttonStyleSmall" />
+                <Button android:id="@id/tool_folder_backup_backUp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B" style="?android:attr/buttonStyleSmall" />
+                <Button android:id="@id/tool_folder_backup_Resotre" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="R" style="?android:attr/buttonStyleSmall" />
+                <Button android:id="@id/tool_folder_backup_ShowList" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看记录" style="?android:attr/buttonStyleSmall" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

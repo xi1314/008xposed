@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frameLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/tool_back_up_select_more_app_listView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" />
+        <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+                <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <Button android:id="@id/tool_back_up_select_more_app_buttonOk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确定" />
+                    <Button android:id="@id/tool_back_up_select_more_app_buttonCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消" />
+                    <Button android:id="@id/tool_back_up_select_more_app_buttonOther" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="反选" />
+                    <Button android:id="@id/tool_back_up_select_more_app_buttonReset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="重置" />
+                </LinearLayout>
+            </LinearLayout>
+            <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/LinearLayout01" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

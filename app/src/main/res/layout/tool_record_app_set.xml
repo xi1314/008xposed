@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/tool_record_app_set_noDeleteApk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="不删除apk文件" />
+    <CheckBox android:id="@id/tool_record_app_set_clearListOnDeleteFile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="每次删除文件后，清空列表（防卡死）" />
+    <CheckBox android:id="@id/tool_record_app_set_noDeleteFileList" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="不删除下列文件列表" />
+    <FrameLayout android:background="#33ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/tool_record_app_set_listView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/tool_record_app_set_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

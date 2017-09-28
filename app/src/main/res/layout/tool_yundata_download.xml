@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frameLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ExpandableListView android:id="@id/tool_yundata_download_expandableListView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" />
+        <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <Button android:id="@id/tool_yundata_download_buttonDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载" />
+                <Button android:id="@id/tool_yundata_selectByDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="按日期选择" />
+                <Button android:id="@id/tool_yundata_download_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除选中" />
+                <Button android:id="@id/tool_yundata_download_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="重置" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

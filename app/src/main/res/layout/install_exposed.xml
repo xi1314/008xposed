@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="安装信息：" />
+    <EditText android:id="@id/install_exposed_notice" android:layout_width="fill_parent" android:layout_height="100.0dip" android:editable="false">
+        <requestFocus />
+    </EditText>
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="选择安装方式" />
+    <Spinner android:id="@id/install_exposed_way" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:layout_gravity="center" android:id="@id/install_exposed_install" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="安装" />
+    <Button android:layout_gravity="center" android:id="@id/install_exposed_reboot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="重启" />
+    <Button android:id="@id/install_exposed_showLog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看日志" />
+</LinearLayout>

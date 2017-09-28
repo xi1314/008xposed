@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/tool_back_up_set_oneImei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="一个imei拥有一个备份" />
+    <CheckBox android:id="@id/tool_back_up_set_autoBackUp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="手动添加到历史记录时，自动备份" />
+    <CheckBox android:id="@id/tool_back_up_set_autoRestore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="还原历史记录时，自动还原" />
+    <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/tool_back_up_set_useCp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用cp" />
+        <RadioButton android:id="@id/tool_back_up_set_useBusyBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用系统busybox" />
+        <RadioButton android:id="@id/tool_back_up_set_use008BusyBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用008busybox" />
+    </RadioGroup>
+    <Button android:id="@id/tool_back_up_set_install008BusyBox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="如果选择008busybox，先安装" style="?android:attr/buttonStyleSmall" />
+</LinearLayout>

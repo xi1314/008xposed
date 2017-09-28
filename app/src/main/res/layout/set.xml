@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="框架系统日志" />
+                <CheckBox android:id="@id/set_log_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="序列号" />
+                <CheckBox android:id="@id/set_imei_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启随机" />
+                <CheckBox android:id="@id/set_imei14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="14位imei" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="前缀" />
+                <EditText android:id="@id/set_imei_head" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IMSI" />
+                <CheckBox android:id="@id/set_imsi_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启随机" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="前缀" />
+                <EditText android:id="@id/set_imsi_head" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="型号数据" />
+                <CheckBox android:id="@id/set_modal_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启随机" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="运营商:" />
+                <Spinner android:id="@id/set_operator_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启随机" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sdk版本" />
+                <CheckBox android:id="@id/set_sdk_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启随机" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sdk版本范围：" />
+                <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="10.0dip" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="最低：" />
+                    <Spinner android:id="@id/set_sdk_int_spinner_min" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="10.0dip" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="最高：" />
+                    <Spinner android:id="@id/set_sdk_int_spinner_max" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <CheckBox android:textSize="10.0dip" android:id="@id/set_sdk_int_checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启" />
+                </LinearLayout>
+                <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="基站数据随机" />
+                    <CheckBox android:id="@id/set_jizhan_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存数据时关闭特定应用" />
+                <CheckBox android:id="@id/set_close_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存数据时清空特定程序数据" />
+                <CheckBox android:id="@id/set_clearApp_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="阻止wifi扫描（位置模拟时，请关闭）" />
+                <CheckBox android:id="@id/set_openScan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启分辨率模拟" />
+                <CheckBox android:id="@id/set_openDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="mac地址随机" />
+                <CheckBox android:id="@id/set_openMac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="强制设置为有手机卡（模拟器）vip可用" />
+                <CheckBox android:id="@id/set_openCard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存数据时，删除工具箱中的文件列表" />
+                <CheckBox android:id="@id/set_delete_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存数据时，清空工具箱中的系统值" />
+                <CheckBox android:id="@id/set_delete_systemValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用内存卡中008.db中的手机数据" />
+                <CheckBox android:id="@id/set_user_008db" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点击保存按钮时自动保存到历史记录" />
+                <CheckBox android:id="@id/set_saveToHistory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="修改wifi-DHCP" />
+                <CheckBox android:id="@id/set_dhcp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:id="@id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="自动修改webView userAgent" />
+                <CheckBox android:id="@id/set_userAgent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BUILD.TIME开启" />
+                <CheckBox android:id="@id/set_buildTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="getProp模拟" />
+                <CheckBox android:id="@id/set_getProp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="深度imei" />
+                <CheckBox android:id="@id/Fuc_PhoneSubInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本地ip模拟" />
+                <CheckBox android:id="@id/setOpenIp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+                <Button android:id="@id/buttonSetIp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="设置ip格式" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="防止检测开发者选项位置模拟" />
+                <CheckBox android:id="@id/setMockLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="防vpn检测" />
+                <CheckBox android:id="@id/setVpn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SDK_INT(开启后，部分应用闪退)" />
+                <CheckBox android:id="@id/set_sdk_int" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="开启" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

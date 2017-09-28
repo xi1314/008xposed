@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frameLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/itemlist" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" />
+        <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <Button android:id="@id/utils_file_choose_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确定" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+                <Button android:id="@id/utils_file_choose_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/remainnew_listview_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="第1天" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:id="@id/remainnew_listview_item_buttonHandle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="操作" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/remainnew_listview_remain_totalNum" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="总数：1201" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/remainnew_listview_remain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="留存：15%" android:layout_alignBottom="@id/remainnew_listview_day" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

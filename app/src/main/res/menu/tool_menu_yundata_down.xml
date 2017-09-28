@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_local_kind" android:title="查看本地历史" android:showAsAction="always" />
+    <item android:id="@id/menu_yun_fresh" android:title="刷新" android:showAsAction="always" />
+</menu>

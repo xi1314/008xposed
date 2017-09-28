@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/tool_quick_tool_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:editable="false" android:layout_weight="1.0" />
+                <Button android:id="@id/tool_quick_tool_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置应用" android:layout_weight="0.43" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/tool_quick_tool_check_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <Button android:id="@id/tool_quick_tool_clear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="数据清除" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/tool_quick_tool_check_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <Button android:id="@id/tool_quick_tool_delete_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除操作过的文件" android:layout_weight="1.18" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/tool_quick_tool_check_clear_system" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <Button android:id="@id/tool_quick_tool_clear_system" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清空系统值" android:layout_weight="1.18" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/tool_quick_tool_check_product_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <Button android:id="@id/tool_quick_tool_product_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="生成随机数据" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <CheckBox android:id="@id/tool_quick_tool_check_change_ip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <LinearLayout android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <Button android:textSize="15.0dip" android:id="@id/tool_quick_tool_change_ip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="数据流量切换ip" android:layout_weight="1.2" />
+                    <Spinner android:id="@id/tool_quick_tool_change_ip_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/tool_quick_tool_check_enterApp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <Button android:id="@id/tool_quick_tool_enterApp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="进入游戏" />
+            </LinearLayout>
+            <Button android:id="@id/tool_quick_tool_one_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="50.0dip" android:text="一键操作" />
+            <LinearLayout android:orientation="vertical" android:id="@id/tool_quick_tool_con" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/tool_quick_tool_history" android:background="@drawable/charge_item_back" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="历史记录" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/tool_quick_tool_quick_history" android:background="@drawable/charge_item_back" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="快捷历史" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/tool_quick_tool_remainControl" android:background="@drawable/charge_item_back" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="留存控制" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/tool_quick_tool_dataBackUp" android:background="@drawable/charge_item_back" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="数据备份" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView1" android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="设置" />
+            <CheckBox android:id="@id/tool_quick_tool_saveToHis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="生成的随机数据保存到历史记录中" />
+            <CheckBox android:id="@id/tool_quick_tool_getFromNet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="从网络获取随机数据" />
+            <Button android:id="@id/tool_quick_tool_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="帮助" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

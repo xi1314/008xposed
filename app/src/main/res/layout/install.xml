@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:background="#ff0277bd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.38">
+        <RelativeLayout android:id="@id/relativeLayout1" android:background="@drawable/rect_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.05">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="40.0dip" android:textColor="#ff000000" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="安装向导" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/RelativeLayout03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.05">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:text="1.root" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/install1" android:background="@drawable/charge_item_back" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" android:text="马上进行" android:layout_alignBaseline="@id/TextView06" android:layout_alignBottom="@id/TextView06" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/RelativeLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.05">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:text="2.安装框架" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/install2" android:background="@drawable/charge_item_back" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" android:text="马上进行" android:layout_alignBaseline="@id/TextView04" android:layout_alignBottom="@id/TextView04" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.05">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:text="3.安装模块" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/install3" android:background="@drawable/charge_item_back" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" android:text="马上进行" android:layout_alignBaseline="@id/TextView02" android:layout_alignBottom="@id/TextView02" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.08">
+        <RelativeLayout android:id="@id/relativeLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.75">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/install_refresh" android:background="@drawable/charge_item_back" android:paddingLeft="50.0dip" android:paddingTop="10.0dip" android:paddingRight="50.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="刷新 " android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

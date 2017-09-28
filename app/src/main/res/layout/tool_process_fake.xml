@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/tool_process_fake_textView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <CheckBox android:id="@id/tool_process_fake_checkBox" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="启用" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

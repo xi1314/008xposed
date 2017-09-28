@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/float_layout_content_btn_random" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="随机数据" />
+    <Button android:id="@id/float_layout_content_btn_quick" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="一键操作" />
+    <Button android:id="@id/float_layout_content_btn_dataView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="进入008数据界面" />
+    <Button android:id="@id/float_layout_content_btn_GonJuXiang" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="进入008工具箱" />
+</LinearLayout>

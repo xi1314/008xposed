@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/tool_contact_sim_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="联系人模拟" style="?android:attr/buttonStyleSmall" />
+        <Button android:id="@id/tool_contact_sim_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="短信模拟" style="?android:attr/buttonStyleSmall" />
+        <Button android:id="@id/tool_contact_sim_callHistory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="通话记录" style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.04">
+        <ListView android:id="@id/tool_contact_sim_listView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="0.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+                <Button android:id="@id/tool_contact_button_deleteAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除全部" style="?android:attr/buttonStyleSmall" />
+                <Button android:id="@id/tool_contact_button_random" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="随机生成" style="?android:attr/buttonStyleSmall" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

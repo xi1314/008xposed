@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="运行模式：" />
+        <Button android:id="@id/set_value_model" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Button" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/button_restore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存" />
+        <Button android:id="@id/set_value_simulate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="随机生成" />
+        <Button android:id="@id/button_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="历史记录" /> " />
+</LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/set_value_con" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffff0000" android:id="@id/set_value_fromNet" android:background="@drawable/charge_item_back" android:padding="3.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="从网络获取数据" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffff0000" android:id="@id/set_value_saveToHistory" android:background="@drawable/charge_item_back" android:padding="3.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="保存到历史记录中" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

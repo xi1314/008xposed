@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_horizontal" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户协议" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <WebView android:id="@id/agreement_webView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="100.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="100.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <CheckBox android:id="@id/agreement_checkBox" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:text="同意协议，并坚决遵守" />
+                <Button android:id="@id/agreement_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="开始使用" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

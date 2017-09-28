@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/remain_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2013-5" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="10.0dip" android:textColor="#ffff0000" android:id="@id/remain_item_ask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="留存要求：15%" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/remain_item_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/remain_item_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前10个/总共100个" />
+</LinearLayout>

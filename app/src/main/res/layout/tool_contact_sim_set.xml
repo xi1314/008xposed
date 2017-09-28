@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:gravity="center" android:id="@id/textView3" android:background="#ff440000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="通讯录数量设置" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="数量：" android:inputType="number" />
+    <EditText android:id="@id/tool_contact_sim_set_contact_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10">
+        <requestFocus />
+    </EditText>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="浮动" />
+    <EditText android:id="@id/tool_contact_sim_set_contact_float" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="number" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:gravity="center" android:background="#ff440000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="短信数量设置" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="数量：" android:inputType="number" />
+    <EditText android:id="@id/tool_contact_sim_set_sms_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10">
+        <requestFocus />
+    </EditText>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="浮动" />
+    <EditText android:id="@id/tool_contact_sim_set_sms_float" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="number" />
+    <Button android:layout_gravity="center" android:id="@id/tool_account_sim_set_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存" />
+    <CheckBox android:id="@id/tool_contact_sim_set_checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="生成新的数据时，自动随机" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/tool_set_address_edit" android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <requestFocus />
+    </EditText>
+    <CheckBox android:id="@id/tool_set_address_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启" />
+    <CheckBox android:id="@id/tool_set_address_closeRandom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关闭数据自动随机功能" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="url说明：" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="填写的链接格式为：http://www.baidu.com?id=xxx&amp;imei=xxx  ,?后面的参数尅随意填写。" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="其他说明：" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="url将自动带上设备imei参数。" />
+</LinearLayout>

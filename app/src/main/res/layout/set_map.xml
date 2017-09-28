@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView1" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="位置模拟" />
+    <LinearLayout android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <RadioGroup android:id="@id/set_map_select" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/radioButton_gps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="基站定位（需要关闭gps）" />
+            <RadioButton android:id="@id/radioButton_jizhan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gps定位(修改定位成功的gps数据)" />
+            <RadioButton android:textSize="12.0dip" android:id="@id/radioButton_gpsNoJiZhan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gps定位(修改定位成功的gps数据)+禁用基站" />
+            <RadioButton android:id="@id/radioButton_NoJiZhan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="禁用基站" />
+            <RadioButton android:id="@id/radioButton_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="系统默认" />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="基站位置" />
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/set_map_editJizhan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:id="@id/set_map_buttonSetJiZhan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gps位置" />
+    <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/set_map_editGps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:id="@id/set_map_buttonSetGps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置" />
+    </LinearLayout>
+</LinearLayout>

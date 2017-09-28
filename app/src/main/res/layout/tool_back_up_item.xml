@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/tool_back_up_item_createTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Small Text" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <CheckBox android:id="@id/tool_back_up_item_checkBox" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/tool_back_up_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Large Text" android:layout_above="@id/tool_back_up_item_createTime" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

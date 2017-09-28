@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frameLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.03">
+        <EditText android:id="@id/install_exposed_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" android:editable="false">
+            <requestFocus />
+        </EditText>
+        <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/linearLayout1" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                <Button android:id="@id/install_exposed_fresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="刷新" />
+                <Button android:id="@id/install_exposed_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清空" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

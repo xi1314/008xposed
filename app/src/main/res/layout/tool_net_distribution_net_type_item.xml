@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/tool_net_distribution_net_type_item_text_networkName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TCL" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前比例为：" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffff0000" android:id="@id/tool_net_distribution_net_type_item_text_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30%" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="权重：" />
+    <SeekBar android:id="@id/tool_net_distribution_net_type_item_seekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

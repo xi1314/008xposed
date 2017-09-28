@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="请将wifi名的txt放置到.system/下且名字为mywifi.txt,即完整内存卡下路径为.system/mywifi.txt" />
+    <Button android:id="@id/tool_mywifi_button_readFile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="读取文件" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="文件状态：" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/tool_mywifi_textView_fileStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="当前未检测到文件" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用状态：" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/tool_mywifi_textView_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前为第0条" />
+    <Button android:id="@id/tool_mywifi_restart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="重新开始" />
+    <Switch android:id="@id/tool_mywifi_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="是否开启" />
+</LinearLayout>

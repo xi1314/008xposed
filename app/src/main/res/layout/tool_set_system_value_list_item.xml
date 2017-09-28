@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/tool_set_system_list_item_checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="" />
+    <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:id="@id/tool_install_list_item_change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="修改" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="名字：" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/tool_set_system_value_list_item_name" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="device_id" android:layout_toRightOf="@id/textView1" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffff0000" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="操作方式：" android:layout_alignBottom="@id/tool_install_list_item_change" android:layout_alignParentLeft="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/tool_set_system_list_item_hanleWay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="读、写" android:layout_toRightOf="@id/textView3" android:layout_alignBaseline="@id/textView3" android:layout_alignBottom="@id/textView3" />
+    </RelativeLayout>
+</LinearLayout>

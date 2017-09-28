@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    <Button android:id="@id/mock_gps_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="到工具箱进行设置" />
+</LinearLayout>

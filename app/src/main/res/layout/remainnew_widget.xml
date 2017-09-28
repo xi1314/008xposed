@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:id="@id/remainnew_widget_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="还未开始" />
+    <ProgressBar android:id="@id/remainnew_widget_progress" android:layout_width="230.0dip" android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal" />
+    <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/remainnew_widget_button_preHistory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上条历史" />
+        <Button android:id="@id/remainnew_widget_button_nextHistory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下条历史" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/remainnew_widget_button_getData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="随机数据" />
+        <Button android:id="@id/remainnew_widget_button_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="留存设置" />
+    </LinearLayout>
+    <Button android:id="@id/remainnew_widget_button_auto" android:layout_width="196.0dip" android:layout_height="wrap_content" android:text="自动" />
+</LinearLayout>

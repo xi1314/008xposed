@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView1" android:background="@drawable/umeng_common_gradient_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="新增模式：" />
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+        <Spinner android:id="@id/remainnew_set_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView3" android:background="@drawable/umeng_common_gradient_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="数据切换时操作" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/remainnew_checkbox_deleteFile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除文件" />
+        <CheckBox android:id="@id/remainnew_checkbox_deleteSystem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除系统值" />
+        <CheckBox android:id="@id/remainnew_checkbox_clearData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清除数据" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:background="@drawable/umeng_common_gradient_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="数据来源" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/remainnew_radioBox_localDB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用本地数据" />
+            <RadioButton android:id="@id/remainnew_radioBox_netDB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用网络数据" />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView2" android:background="@drawable/umeng_common_gradient_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="每日新增" />
+    <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/remainnew_edit_addEveryDayMin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:editable="false" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" />
+        <EditText android:id="@id/remainnew_edit_addEveryDayMax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:editable="false" android:layout_weight="1.0" />
+        <Button android:id="@id/remainnew_button_addSet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:background="@drawable/umeng_common_gradient_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="留存设置" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/frameLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/remainnew_set_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" />
+        <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/remainnew_set_addRemain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加留存" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            <Button android:id="@id/remainnew_set_addRemainMore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="批量添加" android:layout_toRightOf="@id/remainnew_set_addRemain" android:layout_alignParentBottom="true" />
+            <Button android:id="@id/remainnew_set_deleteAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除所有" android:layout_toRightOf="@id/remainnew_set_addRemainMore" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

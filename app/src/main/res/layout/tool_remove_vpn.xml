@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="远程地址" />
+    <EditText android:id="@id/tool_remove_vpn_edit" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <requestFocus />
+    </EditText>
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/tool_remove_vpn_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Large Text" />
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/tool_remove_vpn_connectButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="连接" />
+        <Button android:id="@id/tool_remove_vpn_changeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="改变" />
+    </LinearLayout>
+</LinearLayout>

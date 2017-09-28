@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/remain_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Large Text" />
+    <SeekBar android:id="@id/remain_dialog.seekBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/remain_dialog_remainEdit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/remain_dialog_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Small Text" />
+</LinearLayout>

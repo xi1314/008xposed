@@ -1,0 +1,26 @@
+package com.soft.apk008;
+
+import com.lishu.c.w;
+
+final class bv
+  implements w
+{
+  bv(SetMessageActivity paramSetMessageActivity) {}
+  
+  public final void a(String paramString)
+  {
+    this.a.runOnUiThread(new bw(this));
+    if ((paramString != null) && (paramString.length() > 0))
+    {
+      this.a.runOnUiThread(new bx(this, paramString));
+      return;
+    }
+    this.a.runOnUiThread(new bz(this));
+  }
+}
+
+
+/* Location:           D:\AndroidKiller_v1.3.1\projects\008\ProjectSrc\smali\
+ * Qualified Name:     com.soft.apk008.bv
+ * JD-Core Version:    0.7.0.1
+ */

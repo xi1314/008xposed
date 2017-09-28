@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:background="#33ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="序列号：" />
+                <EditText android:id="@id/tool_find_phone_data_imei" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <Button android:id="@id/tool_find_phone_data_button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="查找并还原" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:background="#33ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="根据文件中的imei还原" />
+                <EditText android:id="@id/tool_find_phone_data_file" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="/sdcard/findData.txt" />
+                <Button android:id="@id/tool_find_phone_data_button2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="查找并还原" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout02" android:background="#33ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <EditText android:id="@id/tool_find_phone_data_edit_imeiStore" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="/sdcard/imeiStore.txt" />
+                <CheckBox android:id="@id/tool_find_phone_data_checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="将快捷操作中的imei保存到文件中" />
+                <Button android:id="@id/tool_find_phone_data_edit_imeiStore_buttonClear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="清空记录" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前值:" />
+    <EditText android:id="@id/tool_set_system_value_dialog_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/tool_set_system_value_dialog_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存" />
+        <Button android:id="@id/tool_set_system_value_dialog_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清空" />
+    </LinearLayout>
+</LinearLayout>

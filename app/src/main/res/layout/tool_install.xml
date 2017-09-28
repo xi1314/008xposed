@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frameLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/tool_install_listView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" />
+        <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/button_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加文件" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            <Button android:id="@id/button_install" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="一键静默安装" android:layout_toRightOf="@id/button_add" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>
